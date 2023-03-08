@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Dancing+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+/* *************************** MAIN PICTURE ************************** */
+#main-pic {
+    padding-top: 60px;
+    background: url(media/gwada.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+}
+#first-line {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    box-shadow: 1px 3px 2px black;
+    background-color: #fffae1;
+}
+#title-pic {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+/* ************************ ACTIVITIES *************************  */
+
+.container-activity{
+    background-color: #fffae1;
+    padding: 10px 0px 50px 0px;
+}
+
+#textIntro {
+    padding: 0px 20%;
+}
+
+#prestation {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 0 50px;
+}
+
+.pictures h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.pictures img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+.pictures img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+/* ****************************** CARD *************************** */
+footer {
+    background-color: #524a3a;
+    padding: 50px;
+}
+
+.card {
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    background: white;
+    border: 5px solid black;
+}
+
+.my-pic {
+    border-radius: 20%;
+}
+
+#end-text{
+    font-size: 2em;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    display: block;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
